@@ -3,6 +3,7 @@
         ['label' => 'Beranda', 'href' => route('home'), 'active' => request()->routeIs('home')],
         ['label' => 'Tentang', 'href' => route('about'), 'active' => request()->routeIs('about')],
         ['label' => 'Produk', 'href' => route('product.index'), 'active' => request()->routeIs('product.*')],
+        ['label' => 'Pesan', 'href' => route('orders.create'), 'active' => request()->routeIs('orders.*')],
         ['label' => 'Tim', 'href' => route('team'), 'active' => request()->routeIs('team')],
         ['label' => 'Kontak', 'href' => route('contact'), 'active' => request()->routeIs('contact')],
     ];

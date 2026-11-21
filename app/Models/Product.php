@@ -15,5 +15,6 @@ class Product extends Model
         'emoji',
         'tag',
         'description',
+        'price'
     ];
 }
